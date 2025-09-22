@@ -1,0 +1,57 @@
+/* Trigger icon */
+.notification-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #2e7d32;
+  margin-right: 20px;
+}
+
+/* Sidebar container */
+.notification-sidebar {
+  position: fixed;
+  top: 0;
+  left: -320px;
+  width: 300px;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+  overflow-y: auto;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* When open */
+.notification-sidebar.open {
+  left: 0;
+}
+
+/* Header */
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-header h2 {
+  font-size: 1.2rem;
+  color: #2e7d32;
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #888;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .notification-sidebar {
+    width: 100%;
+  }
+}
