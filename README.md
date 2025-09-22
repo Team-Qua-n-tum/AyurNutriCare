@@ -52,5 +52,6 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-- Smart India Hackathon 2024
+- Smart India Hackathon 2025
 - Team Qua-n-tum
+
