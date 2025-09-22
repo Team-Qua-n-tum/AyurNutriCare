@@ -6,10 +6,10 @@ const PatientSettings = () => {
     const [isEditing, setIsEditing] = useState(false);
 
     const patientData = {
-        fullName: 'John Doe',
-        email: 'john.doe@example.com',
+        fullName: 'Mukesh',
+        email: 'patient@demo.com',
         phone: '+91 9876543210',
-        age: 32,
+        age: 18,
         gender: 'Male',
         medicalHistory: 'Hypertension (controlled with medication), seasonal allergies, no known drug allergies. Family history of diabetes.',
         bio: 'Health-conscious individual seeking holistic wellness and preventive care. Actively interested in maintaining a balanced lifestyle through proper nutrition and regular exercise.',

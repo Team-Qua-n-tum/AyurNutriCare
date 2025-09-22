@@ -6,7 +6,7 @@ const mockUsers = [
   {
     id: '1',
     email: 'patient@demo.com',
-    name: 'Priya Sharma',
+    name: 'Mukesh',
     role: 'patient',
     avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?w=400'
   },

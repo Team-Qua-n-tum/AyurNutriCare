@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Leaf, Mail, Lock, Users, UserCheck } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { Link } from 'react-router-dom';
-import Signup from './Signup.jsx';
-import Forget from './forget.jsx';
 import Logo from '../assets/Logo.svg';
 
 export function LoginPage() {
@@ -115,7 +113,7 @@ export function LoginPage() {
             </button>
             <p>
               New User?
-              <Link to="/signup" className="text-emerald-600 hover:underline"> Sign Up</Link>
+              <Link to="/register" className="text-emerald-600 hover:underline"> Sign Up</Link>
             </p>
             <p>
               <Link to="/forget" className="text-emerald-600 hover:underline"> Forget Password?</Link>

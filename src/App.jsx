@@ -5,9 +5,9 @@ import { LoginPage } from './components/LoginPage';
 import { PatientDashboard } from './components/PatientDashboard';
 import { DoctorDashboard } from './components/DoctorDashboard';
 import Home from './components/Home.jsx';
-import Signup from './components/Signup.jsx';
 import Forget from './components/forget.jsx';
 import Profie from './components/ProfileForm.jsx';
+import Register from './components/register.jsx';
 import { Routes, Route } from 'react-router-dom';
 
 function AppContent() {
@@ -16,7 +16,7 @@ function AppContent() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/signup" element={<Signup />} />
+      <Route path="/register" element={<Register />} />
       <Route path="/forget" element={<Forget />} />
       <Route path="/profile" element={<Profie />} />
       <Route path="/login" element={!user ? <LoginPage /> : (

@@ -8,7 +8,7 @@ const mockRequests = [
   {
     id: '1',
     patientId: '1',
-    patientName: 'Priya Sharma',
+    patientName: 'Mukesh',
     title: 'Weight Management Plan',
     description: 'Looking for a personalized Ayurvedic diet plan to help with healthy weight management and increased energy levels.',
     healthGoals: 'Lose 5kg in 3 months, increase energy, improve digestion',
@@ -21,7 +21,7 @@ const mockRequests = [
   {
     id: '2',
     patientId: '1',
-    patientName: 'Priya Sharma',
+    patientName: 'Mukesh',
     title: 'Digestive Health Consultation',
     description: 'Experiencing digestive issues and would like an Ayurvedic approach to improve gut health.',
     healthGoals: 'Better digestion, reduced bloating, regular bowel movements',
