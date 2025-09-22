@@ -171,7 +171,7 @@ export function PatientDashboard() {
     <div className="dashboard-container">
       {/* Welcome Section */}
       <div className="dashboard-header">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">Welcome back, Priya</h1>
+        <h1 className="text-3xl font-bold text-gray-900 mb-2">Welcome back, Mukesh</h1>
         <p className="text-gray-600">Your journey to holistic wellness continues here</p>
       </div>
 
