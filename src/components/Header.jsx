@@ -4,6 +4,7 @@ import DocProfile from './DoctorSettings';
 import PatientProfile from './PatientSettings';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import Notification from '../components/notification';
 import Logo from '../assets/Logo.svg';
 
 export function Header() {
@@ -72,6 +73,7 @@ export function Header() {
         {user ? (
           <div className="user-menu">
             <div className="user-info">
+              <Notification />
               <div className="user-avatar">
                 <button
                   type="button"
