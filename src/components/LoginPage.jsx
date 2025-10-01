@@ -119,14 +119,14 @@ export function LoginPage() {
               <Link to="/forget" className="text-emerald-600 hover:underline"> Forget Password?</Link>
             </p>
           </form>
-          {/* <div className="demo-credentials">
+          <div className="demo-credentials">
             <h3 className="text-sm font-medium text-gray-900 mb-2">Demo Credentials:</h3>
             <div className="text-xs text-gray-600 space-y-1">
               <p><strong>Patient:</strong> patient@demo.com</p>
               <p><strong>Doctor:</strong> doctor@demo.com</p>
               <p><em>Password: any password</em></p>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
